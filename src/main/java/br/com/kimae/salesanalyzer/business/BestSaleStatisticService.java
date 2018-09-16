@@ -1,18 +1,17 @@
 package br.com.kimae.salesanalyzer.business;
 
-import static br.com.kimae.salesanalyzer.domain.RecordType.SALE;
+import static br.com.kimae.salesanalyzer.dto.RecordType.SALE;
 import static java.util.stream.Collectors.toList;
 import static org.apache.commons.lang3.BooleanUtils.isFalse;
 
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import br.com.kimae.salesanalyzer.domain.Record;
-import br.com.kimae.salesanalyzer.domain.SaleRecord;
+import br.com.kimae.salesanalyzer.dto.Record;
+import br.com.kimae.salesanalyzer.dto.SaleRecord;
 import lombok.extern.slf4j.Slf4j;
 
 @Service

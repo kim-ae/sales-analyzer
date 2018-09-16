@@ -1,6 +1,6 @@
-package br.com.kimae.salesanalyzer.domain;
+package br.com.kimae.salesanalyzer.dto;
 
-import static br.com.kimae.salesanalyzer.domain.RecordType.SALESMAN;
+import static br.com.kimae.salesanalyzer.dto.RecordType.SALESMAN;
 import static lombok.AccessLevel.PRIVATE;
 
 import lombok.AllArgsConstructor;

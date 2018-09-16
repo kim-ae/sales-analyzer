@@ -5,12 +5,9 @@ import static java.util.stream.Collectors.toList;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
-import java.nio.file.CopyOption;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Stream;
@@ -18,10 +15,10 @@ import java.util.stream.Stream;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import br.com.kimae.salesanalyzer.domain.Record;
-import br.com.kimae.salesanalyzer.domain.Records;
-import br.com.kimae.salesanalyzer.domain.mapper.Mapper;
-import br.com.kimae.salesanalyzer.domain.mapper.RecordMapper;
+import br.com.kimae.salesanalyzer.dto.Record;
+import br.com.kimae.salesanalyzer.dto.Records;
+import br.com.kimae.salesanalyzer.dto.mapper.Mapper;
+import br.com.kimae.salesanalyzer.dto.mapper.RecordMapper;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 

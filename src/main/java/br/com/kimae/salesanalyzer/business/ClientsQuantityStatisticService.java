@@ -1,12 +1,12 @@
 package br.com.kimae.salesanalyzer.business;
 
-import static br.com.kimae.salesanalyzer.domain.RecordType.CLIENT;
+import static br.com.kimae.salesanalyzer.dto.RecordType.CLIENT;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import br.com.kimae.salesanalyzer.domain.Record;
+import br.com.kimae.salesanalyzer.dto.Record;
 import lombok.extern.slf4j.Slf4j;
 
 @Service

@@ -1,7 +1,7 @@
-package br.com.kimae.salesanalyzer.domain;
+package br.com.kimae.salesanalyzer.dto;
 
 
-import static br.com.kimae.salesanalyzer.domain.RecordType.SALE;
+import static br.com.kimae.salesanalyzer.dto.RecordType.SALE;
 import static lombok.AccessLevel.PRIVATE;
 
 import java.util.List;

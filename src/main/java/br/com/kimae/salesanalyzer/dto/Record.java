@@ -1,4 +1,4 @@
-package br.com.kimae.salesanalyzer.domain;
+package br.com.kimae.salesanalyzer.dto;
 
 public interface Record {
 

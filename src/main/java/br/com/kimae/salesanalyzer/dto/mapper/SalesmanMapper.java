@@ -1,14 +1,14 @@
-package br.com.kimae.salesanalyzer.domain.mapper;
+package br.com.kimae.salesanalyzer.dto.mapper;
 
-import static br.com.kimae.salesanalyzer.domain.Record.ALL_REGEX;
-import static br.com.kimae.salesanalyzer.domain.Record.COLUMN_SEPARATOR;
-import static br.com.kimae.salesanalyzer.domain.Record.ID_REGEX;
+import static br.com.kimae.salesanalyzer.dto.Record.ALL_REGEX;
+import static br.com.kimae.salesanalyzer.dto.Record.COLUMN_SEPARATOR;
+import static br.com.kimae.salesanalyzer.dto.Record.ID_REGEX;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import br.com.kimae.salesanalyzer.domain.Record;
-import br.com.kimae.salesanalyzer.domain.SalesmanRecord;
+import br.com.kimae.salesanalyzer.dto.Record;
+import br.com.kimae.salesanalyzer.dto.SalesmanRecord;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

@@ -1,4 +1,4 @@
-package br.com.kimae.salesanalyzer.domain;
+package br.com.kimae.salesanalyzer.dto;
 
 
 import static lombok.AccessLevel.PRIVATE;
@@ -6,10 +6,10 @@ import static lombok.AccessLevel.PRIVATE;
 import java.util.Arrays;
 import java.util.Optional;
 
-import br.com.kimae.salesanalyzer.domain.mapper.ClientMapper;
-import br.com.kimae.salesanalyzer.domain.mapper.Mapper;
-import br.com.kimae.salesanalyzer.domain.mapper.SaleMapper;
-import br.com.kimae.salesanalyzer.domain.mapper.SalesmanMapper;
+import br.com.kimae.salesanalyzer.dto.mapper.ClientMapper;
+import br.com.kimae.salesanalyzer.dto.mapper.Mapper;
+import br.com.kimae.salesanalyzer.dto.mapper.SaleMapper;
+import br.com.kimae.salesanalyzer.dto.mapper.SalesmanMapper;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor(access = PRIVATE)

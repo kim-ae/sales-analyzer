@@ -4,14 +4,14 @@ spring:
 
 management:
   server:
-    port: 9999
+    port: ${MANAGEMENT_PORT:9999}
 
 logging:
   level:
     root: WARN
     io.undertow.websockets.jsr:
     org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping: INFO
-    br.com.kimae.salesanalyzer: ${LOG_LEVEL_APP:DEBUG}
+    br.com.kimae.salesanalyzer: ${LOG_LEVEL_APP:INFO}
     org.springframework.boot.web.embedded.undertow.UndertowServletWebServer: INFO
 
 server:

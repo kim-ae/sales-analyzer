@@ -1,11 +1,11 @@
-package br.com.kimae.salesanalyzer.domain.mapper;
+package br.com.kimae.salesanalyzer.dto.mapper;
 
 import static org.apache.commons.lang3.StringUtils.isBlank;
 
 import java.util.Optional;
 
-import br.com.kimae.salesanalyzer.domain.Record;
-import br.com.kimae.salesanalyzer.domain.RecordType;
+import br.com.kimae.salesanalyzer.dto.Record;
+import br.com.kimae.salesanalyzer.dto.RecordType;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

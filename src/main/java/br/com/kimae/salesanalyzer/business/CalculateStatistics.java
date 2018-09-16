@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.kimae.salesanalyzer.domain.Records;
+import br.com.kimae.salesanalyzer.dto.Records;
 import lombok.extern.slf4j.Slf4j;
 
 @Service
