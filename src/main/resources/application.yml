@@ -1,0 +1,18 @@
+spring:
+  main:
+    banner-mode: 'OFF'
+
+management:
+  server:
+    port: 9999
+
+logging:
+  level:
+    root: WARN
+    io.undertow.websockets.jsr:
+    org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping: INFO
+    br.com.kimae.salesanalyzer: ${LOG_LEVEL_APP:DEBUG}
+    org.springframework.boot.web.embedded.undertow.UndertowServletWebServer: INFO
+
+server:
+  port: ${SERVER_PORT:8080}
