@@ -1,13 +1,10 @@
 package br.com.kimae.salesanalyzer.dto.mapper;
 
-import static br.com.kimae.salesanalyzer.dto.Record.ALL_REGEX;
-import static br.com.kimae.salesanalyzer.dto.Record.COLUMN_SEPARATOR;
-import static br.com.kimae.salesanalyzer.dto.Record.ID_REGEX;
+import static br.com.kimae.salesanalyzer.dto.Regex.ALL_REGEX;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import br.com.kimae.salesanalyzer.dto.Record;
 import br.com.kimae.salesanalyzer.dto.SaleItem;
 import lombok.extern.slf4j.Slf4j;
 

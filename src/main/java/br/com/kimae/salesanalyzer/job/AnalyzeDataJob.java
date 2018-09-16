@@ -33,7 +33,7 @@ public class AnalyzeDataJob {
 
 
     @Scheduled(fixedDelay = 10000L)
-    void readDirectory(){
+    void analyze(){
         log.info("Starting job");
 
         List<Records> records = reader.read();

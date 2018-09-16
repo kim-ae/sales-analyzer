@@ -5,11 +5,13 @@ import static lombok.AccessLevel.PRIVATE;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
+import lombok.Getter;
 import lombok.ToString;
 
 @Builder
 @AllArgsConstructor(access = PRIVATE)
 @ToString
+@Getter
 public class ClientRecord implements Record {
 
     private final String cnpj;

@@ -1,8 +1,9 @@
 package br.com.kimae.salesanalyzer.dto.mapper;
 
-import static br.com.kimae.salesanalyzer.dto.Record.ALL_REGEX;
-import static br.com.kimae.salesanalyzer.dto.Record.COLUMN_SEPARATOR;
-import static br.com.kimae.salesanalyzer.dto.Record.ID_REGEX;
+import static br.com.kimae.salesanalyzer.dto.Regex.ALL_REGEX;
+import static br.com.kimae.salesanalyzer.dto.Regex.COLUMN_SEPARATOR;
+import static br.com.kimae.salesanalyzer.dto.Regex.ID_REGEX;
+import static br.com.kimae.salesanalyzer.dto.Regex.ITEMS_REGEX;
 import static java.util.stream.Collectors.toList;
 
 import java.util.Arrays;
@@ -18,7 +19,6 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class SaleMapper implements Mapper {
 
-    private static final String ITEMS_REGEX = "\\[(.*)\\]";
     private static final String ITEMS_SEPARATOR = ",";
     private static final Pattern PATTERN = Pattern.compile(
         ID_REGEX + COLUMN_SEPARATOR + ALL_REGEX + COLUMN_SEPARATOR + ITEMS_REGEX + COLUMN_SEPARATOR + ALL_REGEX);
